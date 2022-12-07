@@ -171,7 +171,7 @@ app.layout = html.Div(children=[
 
 
 def start():    
-    app.run_server(host='0.0.0.0')
+    app.run_server(host='0.0.0.0',port=80)
 
 if __name__ == '__main__':
     start()
