@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Chekout Repo
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Docker Login
       # You may pin to the exact commit or the version.
